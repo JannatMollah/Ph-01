@@ -4,13 +4,15 @@
     margin: 0;
     padding: 0;
 }
-
 header{
     background: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.header-logo {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -18,7 +20,6 @@ header{
     height: 151px;
     align-items: center;
 }
-
 .header-content{
     display: flex;
     flex-direction: column;
@@ -26,7 +27,6 @@ header{
     padding-top: 200px;
     padding-bottom: 200px;
 }
-
 .header-content p{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -34,7 +34,6 @@ header{
     text-align: center;
     padding-bottom: 37px;
 }
-
 .btn{
     font-family: 'Raleway', sans-serif;
     background-color: #4E47FF;
@@ -44,7 +43,6 @@ header{
     border-radius: 10px;
     cursor: pointer;
 }
-
 .btn:hover{
     background-color: red;
 }
@@ -210,6 +208,9 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.focus-btn:hover{
+    background-color: red;
+}
 
 /* Contact Section */
 
@@ -260,6 +261,9 @@ main{
     border-radius: 10px;
     cursor: pointer;
     width: 497px;
+}
+.submit:hover{
+    background-color: red;
 }
 
 /* Footer Section */
