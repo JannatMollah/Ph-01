@@ -9,9 +9,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header-logo {
-    font-family: "Inter", sans-serif;
-    text-decoration: none;
+.header-logo img{
+    width: 99px;
+    height: 51px;
+    border-radius: 10px;
 }
 .header-nav{
     display: flex;
@@ -282,11 +283,10 @@ main{
     padding-bottom: 8px;
     color: #8987A1;
 }
-.footer-logo{
-    font-weight: bolder;
-    font-size: 100px;
-    text-decoration: none;
-    padding-bottom: 8px;
+.footer-logo img{
+    width: 291px;
+    height: 121px;
+    border-radius: 10px;
 }
 .footer-nav {
     display: flex;
