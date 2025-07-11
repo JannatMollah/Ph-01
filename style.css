@@ -47,3 +47,29 @@ header{
 .btn:hover{
     background-color: red;
 }
+
+/* Main Section */
+
+/* Action Section */
+.action{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 150px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-desc{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    text-align: left;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.action img{
+    border-radius: 48px;
+}
+
