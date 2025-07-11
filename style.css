@@ -261,3 +261,42 @@ main{
     cursor: pointer;
     width: 497px;
 }
+
+/* Footer Section */
+
+.footer-container{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 104px 455px 103px 454px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content p{
+    padding-bottom: 8px;
+    color: #8987A1;
+}
+.footer-logo{
+    font-weight: bolder;
+    font-size: 100px;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 14px;
+}
+.footer-nav a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
